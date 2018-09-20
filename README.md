@@ -7,10 +7,8 @@
 
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+A JavaScript-based Web application that enables users to form meshes and apply color to the grid to create small images.
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+The HTML and CSS file is the starter code by Udacity.
