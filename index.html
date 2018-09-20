@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pixel Art Marker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <script src="jquery-3.3.1.slim.min.js"></script>
+</head>
+<body>
+    <h1>PIXEL ART MARKER</h1>
+
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="inputHeight" min="1"  max="10" value="1">
+        Grid Width:
+        <input type="number" id="inputWidth" name="inputWidth" min="1" max="10" value="1">
+
+        <input type="submit">
+    </form>
+
+    <h2>Pick a color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+    <script src="designs.js"></script>
+</body>
+</html>
